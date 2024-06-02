@@ -7,5 +7,8 @@
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+    
+PRODUCT_PACKAGES += \
+    gnss_supl20service_hisi
 
 $(call inherit-product, vendor/huawei/schubert/schubert-vendor-blobs.mk)
