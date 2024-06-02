@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+<!--  product instruction
+    because of the various orientation of sensor, there're some differences
+	of gyro and ois between MHA and VV. So identify the target product for algo
+	0 represents MHA&LON
+	1 represents VV
+	If there're more products, just add to this list
+-->
+    <productId value="2"/>
+</Config>

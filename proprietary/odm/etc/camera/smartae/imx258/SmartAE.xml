@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AEConfig>
+    <FaceAE>
+    <minArea>4000</minArea>
+    <darkThreshold>70</darkThreshold>
+    <brightThreshold>170</brightThreshold>
+    <verydarkThreshold>35</verydarkThreshold>
+    <verybrightThreshold>200</verybrightThreshold>
+    <faceEVComp_MAX>1000</faceEVComp_MAX>
+    <faceEVComp_MIN>-1000</faceEVComp_MIN>
+    <overExpoThreshold>25</overExpoThreshold>
+    <underExpoThreshold>25</underExpoThreshold>
+    </FaceAE>
+
+    <HistAE>
+	<OVEREXPO_2UnStable_TH>6000</OVEREXPO_2UnStable_TH>    <!--over expo and under expo parameters-->
+	<OVEREXPO_2Stable_TH>5000</OVEREXPO_2Stable_TH>
+	<UNDEREXPO_2UnStable_TH>7200</UNDEREXPO_2UnStable_TH>
+	<UNDEREXPO_2Stable_TH>5500</UNDEREXPO_2Stable_TH>
+	<EXPO_ISO_TH>60</EXPO_ISO_TH>
+	<OVEREXPO_2UnStable_TH_Dark>6000</OVEREXPO_2UnStable_TH_Dark>
+	<OVEREXPO_2Stable_TH_Dark>5000</OVEREXPO_2Stable_TH_Dark>
+	<UNDEREXPO_2UnStable_TH_Dark>51200</UNDEREXPO_2UnStable_TH_Dark>
+	<UNDEREXPO_2Stable_TH_Dark>51200</UNDEREXPO_2Stable_TH_Dark>
+	<MULTIPLE>2</MULTIPLE>
+	<EMPTYBIN_2Stable>6</EMPTYBIN_2Stable>
+	<EMPTYBIN_2UnStable>10</EMPTYBIN_2UnStable>
+
+	<LvDefault2Night>30</LvDefault2Night>  <!--is night parameters-->
+	<LvNight2Default>10</LvNight2Default>
+
+	<LvDefault2IndoorMin>4</LvDefault2IndoorMin>    <!--is indoor-->
+	<LvDefault2IndoorMax>20</LvDefault2IndoorMax>
+	<LvIndoor2DefaultMin>1</LvIndoor2DefaultMin>
+	<LvIndoor2DefaultMax>28</LvIndoor2DefaultMax>
+
+	<mid2over_HLIGHTR>10</mid2over_HLIGHTR>      <!--is nightlight parameters-->
+	<over2mid_HLIGHTR>1</over2mid_HLIGHTR>
+	<mid2over_MLIGHTR>300</mid2over_MLIGHTR>
+	<nightLightEVComp>-100</nightLightEVComp>
+	<histEVCompMax>1000</histEVCompMax>
+	<histEVCompMin>0</histEVCompMin>
+	<chOverEVCompMin>-600</chOverEVCompMin>
+	<isHDRExpoMaxThre>16</isHDRExpoMaxThre>
+    </HistAE>
+
+	<DepthAE>
+	<depthAEFlag>0</depthAEFlag>
+	<depthEVCompMax>400</depthEVCompMax>
+	<depthEVCompMin>-400</depthEVCompMin>
+	</DepthAE>
+
+    <!--The adjusted hdrValue is (AdjustValue*hdrValue)>>8 -->
+    <HdrCompAjust>
+    <hdrType0_underExposureAdjust>280</hdrType0_underExposureAdjust> 	<!-- Thre 2000-->
+    <hdrType0_overExposureAdjust>256</hdrType0_overExposureAdjust> 		<!-- Thre -1700 -->
+    <hdrType1_underExposureAdjust>80</hdrType1_underExposureAdjust> 	<!-- Thre 2000 -->
+    <hdrType1_overExposureAdjust>256</hdrType1_overExposureAdjust> 		<!-- Thre -1700 -->
+    <hdrType2_underExposureAdjust>280</hdrType2_underExposureAdjust> 	<!-- Thre 2000 -->
+    <hdrType2_overExposureAdjust>205</hdrType2_overExposureAdjust> 		<!-- Thre -1000 -->
+    <hdrType3_underExposureAdjust>280</hdrType3_underExposureAdjust> 	<!-- Thre 2000 -->
+    <hdrType3_overExposureAdjust>256</hdrType3_overExposureAdjust> 		<!-- Thre -1700 -->
+    <hdrType5_underExposureAdjust>256</hdrType5_underExposureAdjust> 	<!-- Thre 800 -->
+    <hdrType5_overExposureAdjust>256</hdrType5_overExposureAdjust> 		<!-- Thre -1330 -->
+
+    <hdr_NIGHT_underExpoAdj>256</hdr_NIGHT_underExpoAdj>                <!-- Thre 800 -->
+    <hdr_NIGHT_overExpoAdj>256</hdr_NIGHT_overExpoAdj>                  <!-- Thre -1330 -->
+    <hdr_STAGE_underExpoAdj>256</hdr_STAGE_underExpoAdj>                <!-- Thre 800 -->
+    <hdr_STAGE_overExpoAdj>256</hdr_STAGE_overExpoAdj>                  <!-- Thre -1330 -->
+    <hdr_SUNSET_underExpoAdj>170</hdr_SUNSET_underExpoAdj>              <!-- Thre 1500 -->
+    <hdr_SUNSET_overExpoAdj>256</hdr_SUNSET_overExpoAdj>                <!-- Thre -1500 -->
+    </HdrCompAjust>
+
+    <!--<minY:only binning, >maxY:binning + AE_Max, between:linear calculate-->
+    <BinningControl>
+    <maxYTotalForSingle>40</maxYTotalForSingle>
+    <minYTotalForSingle>15</minYTotalForSingle>
+    </BinningControl>
+
+    <!--the parameters for JPGHDR-->
+    <JPGHDRControl>
+    <JHDRMaxExpoTimeForSensor>320</JHDRMaxExpoTimeForSensor>		<!--the max ExposueTime ability for sensor(ms)-->
+    <JHDRMaxExpoTimeForCapture>80</JHDRMaxExpoTimeForCapture>		<!--the max ExposueTime for normal capture(ms)-->
+    <JHDRunderEvCompEnHenceRatio>1200</JHDRunderEvCompEnHenceRatio>  	<!--enHenceRatio:1200/1000=1.2-->
+    <JHDRoverEvCompEnHenceRatio>1200</JHDRoverEvCompEnHenceRatio>    	<!--same to above-->
+    <JHDR5FrameEnterThre>3100</JHDR5FrameEnterThre>
+    <JHDR7FrameEnterThre>3700</JHDR7FrameEnterThre>
+    <JHDREvCompMaxValueFor3Frames>2000</JHDREvCompMaxValueFor3Frames>	<!--Ev: 3000/1000=3.0Ev-->
+    <JHDREvCompMaxValueFor5Frames>2100</JHDREvCompMaxValueFor5Frames>       <!--same to above-->
+    <JHDREvCompMaxValueFor7Frames>2200</JHDREvCompMaxValueFor7Frames>       <!--7frames is enhanced by enHenceRatio-->
+    </JPGHDRControl>
+
+    <!--<3S1L>-->
+    <MEFControl>
+    <MEFCloseTag>1</MEFCloseTag>    <!--0: close 3s1l, 1: not close-->
+    <MEFSupportedMinExpoThreshold>100</MEFSupportedMinExpoThreshold>    <!--3S1l unable expotime <= 10ms -->
+    <MEFSupportedMinISOThreshold1>800</MEFSupportedMinISOThreshold1>      <!--3S1l unable ISO <= MEFSupportedMinISOThreshold1 &&  expotime <= 1/MEFSupportedMinExpoThreshold-->
+    <MEFSupportedMinISOThreshold2>1200</MEFSupportedMinISOThreshold2>      <!--3S1l unable ISO >= MEFSupportedMinISOThreshold2 -->
+    <MEFLevel11MinISO>0</MEFLevel11MinISO>
+    <MEFLevel11ExposureComp>500</MEFLevel11ExposureComp>
+    <MEFLevel11ISOComp>1000</MEFLevel11ISOComp>
+    <MEFLevel11MaxISO>250</MEFLevel11MaxISO>    <!--iso in [0,250), expo*0.5, iso*1-->
+    <MEFLevel12MinISO>250</MEFLevel12MinISO>
+    <MEFLevel12ExposureComp>500</MEFLevel12ExposureComp>
+    <MEFLevel12ISOComp>1000</MEFLevel12ISOComp>
+    <MEFLevel12MaxISO>500</MEFLevel12MaxISO>    <!--iso in [250,500), expo*0.5, iso*1-->
+    <MEFLevel13MinISO>500</MEFLevel13MinISO>
+    <MEFLevel13ExposureComp>500</MEFLevel13ExposureComp>
+    <MEFLevel13ISOComp>1000</MEFLevel13ISOComp>
+    <MEFLevel13MaxISO>1600</MEFLevel13MaxISO>   <!--iso in [500,1600), expo*0.5, iso*1-->
+    <MEFLevel14MinISO>1600</MEFLevel14MinISO>
+    <MEFLevel14ExposureComp>670</MEFLevel14ExposureComp>
+    <MEFLevel14ISOComp>750</MEFLevel14ISOComp>
+    <MEFLevel14MaxISO>3500</MEFLevel14MaxISO>   <!--iso in [1600,3500], expo*0.67, iso*0.75-->
+
+    <MEFLevel21MinISO>0</MEFLevel21MinISO>
+    <MEFLevel21ExposureComp>500</MEFLevel21ExposureComp>
+    <MEFLevel21ISOComp>1000</MEFLevel21ISOComp>
+    <MEFLevel21MaxISO>250</MEFLevel21MaxISO>    <!--iso in [0,250), expo*0.25, iso*2-->
+    <MEFLevel22MinISO>250</MEFLevel22MinISO>
+    <MEFLevel22ExposureComp>500</MEFLevel22ExposureComp>
+    <MEFLevel22ISOComp>1000</MEFLevel22ISOComp>
+    <MEFLevel22MaxISO>500</MEFLevel22MaxISO>    <!--iso in [250,500), expo*0.33, iso*1.5-->
+    <MEFLevel23MinISO>500</MEFLevel23MinISO>
+    <MEFLevel23ExposureComp>500</MEFLevel23ExposureComp>
+    <MEFLevel23ISOComp>1000</MEFLevel23ISOComp>
+    <MEFLevel23MaxISO>1600</MEFLevel23MaxISO>   <!--iso in [500,1600), expo*0.5, iso*1-->
+    <MEFLevel24MinISO>1600</MEFLevel24MinISO>
+    <MEFLevel24ExposureComp>670</MEFLevel24ExposureComp>
+    <MEFLevel24ISOComp>750</MEFLevel24ISOComp>
+    <MEFLevel24MaxISO>3500</MEFLevel24MaxISO>   <!--iso in [1600,3500], expo*0.67, iso*0.75-->
+
+    <MEFLevel31MinISO>0</MEFLevel31MinISO>
+    <MEFLevel31ExposureComp>500</MEFLevel31ExposureComp>
+    <MEFLevel31ISOComp>1000</MEFLevel31ISOComp>
+    <MEFLevel31MaxISO>250</MEFLevel31MaxISO>    <!--iso in [0,250), expo*0.25, iso*2-->
+    <MEFLevel32MinISO>250</MEFLevel32MinISO>
+    <MEFLevel32ExposureComp>500</MEFLevel32ExposureComp>
+    <MEFLevel32ISOComp>1000</MEFLevel32ISOComp>
+    <MEFLevel32MaxISO>500</MEFLevel32MaxISO>    <!--iso in [250,500), expo*0.33, iso*1.5-->
+    <MEFLevel33MinISO>500</MEFLevel33MinISO>
+    <MEFLevel33ExposureComp>500</MEFLevel33ExposureComp>
+    <MEFLevel33ISOComp>1000</MEFLevel33ISOComp>
+    <MEFLevel33MaxISO>1600</MEFLevel33MaxISO>   <!--iso in [500,1600), expo*0.5, iso*1-->
+    <MEFLevel34MinISO>1600</MEFLevel34MinISO>
+    <MEFLevel34ExposureComp>670</MEFLevel34ExposureComp>
+    <MEFLevel34ISOComp>750</MEFLevel34ISOComp>
+    <MEFLevel34MaxISO>3500</MEFLevel34MaxISO>   <!--iso in [1600,3500], expo*0.67, iso*0.75-->
+    </MEFControl>
+
+</AEConfig>
+<!--fileLength 8285, If add parameters, please adjust the fileLength,2017/08/25-->

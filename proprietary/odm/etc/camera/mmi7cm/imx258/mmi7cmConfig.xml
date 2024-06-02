@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMI_7CM_CONFIG cam_num="2">
+    <THRESHOLD FC_primary="17500" NC_primary="29000" FC_aux="17500" NC_aux="29000"/>
+</MMI_7CM_CONFIG>
