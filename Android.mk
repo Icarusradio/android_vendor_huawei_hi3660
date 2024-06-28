@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter schubert,$(TARGET_DEVICE)),)
+ifneq ($(filter mediapadm5wifi mediapadm5lte,$(TARGET_DEVICE)),)
 
 endif

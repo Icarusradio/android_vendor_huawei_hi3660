@@ -12,4 +12,4 @@ PRODUCT_PACKAGES += \
     gnss_supl20service_hisi \
     libril-hisi
     
-$(call inherit-product, vendor/huawei/schubert/schubert-vendor-blobs.mk)
+$(call inherit-product, vendor/huawei/hi3660/hi3660-vendor-blobs.mk)
