@@ -7,9 +7,8 @@
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-    
+
 PRODUCT_PACKAGES += \
-    gnss_supl20service_hisi \
-    libril-hisi
-    
+    gnss_supl20service_hisi
+
 $(call inherit-product, vendor/huawei/hi3660/hi3660-vendor-blobs.mk)
