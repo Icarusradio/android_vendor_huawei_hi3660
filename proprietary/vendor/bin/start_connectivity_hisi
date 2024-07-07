@@ -314,6 +314,15 @@ function main_user()
         print_kernel_message "cfg_ini_path_ini fail"
     fi
 
+    if [ -e /vendor/etc/native_packages.bin ]; then
+	mount -o remount,rw /vendor
+	cp -r /vendor/etc/native_packages.bin /vendor/etc/native_packages.xml
+	chmod 0644 /vendor/etc/native_packages.xml
+	chown root.shell /vendor/etc/native_packages.xml
+	rm -r /vendor/etc/native_packages.bin
+	mount -o remount,ro /vendor
+    fi
+
     load_drivers
     print_kernel_message "dir mode:$1"
     if [ "$1" != "recovery" ] ; then
