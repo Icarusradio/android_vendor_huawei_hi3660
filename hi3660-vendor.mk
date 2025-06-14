@@ -10,6 +10,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     gnss_supl20service_hisi \
-    opencamera
+    Camera
 
 $(call inherit-product, vendor/huawei/hi3660/hi3660-vendor-blobs.mk)
