@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <Config>
     <Global>
         <ExposureFusionFlag colorcount="4" graycount="4" minfps0="100000" minfps1="62500" maxiso0="5000" maxiso1="3200" sync="0">1</ExposureFusionFlag>
@@ -320,13 +320,13 @@
     <!--params for different iso-->
     <!--mono_eps at [0.032, 0.16]-->
     <!--color_eps at [0.04, 0.16]-->
-    <camera_pos>0</camera_pos> <!-- MHA/DUKE/VV ???? 3/0/1, main camera right/down/up-->
-    <fov_scale>0.996</fov_scale><!-- ??camera fov / ??camera fov--><!-- MHA/DUKE/VV ???? 1.03/1/1.03-->
+    <camera_pos>0</camera_pos> <!-- MHA/DUKE/VV 对应 3/0/1, main camera right/down/up-->
+    <fov_scale>0.996</fov_scale><!-- 副camera fov / 主camera fov--><!-- MHA/DUKE/VV 对应 1.03/1/1.03-->
 	<contrast_per>15</contrast_per>
     <isoCount>10</isoCount>
     <iso1>
         <iso>2048</iso>
-        <appointed_router>-1</appointed_router> <!--0/1/2/3????monobase/colorbase/coloronly/hybrid, -1????????????????-->
+        <appointed_router>-1</appointed_router> <!--0/1/2/3表示monobase/colorbase/coloronly/hybrid, -1表示算法自己判断-->
         <color_eps>0.04</color_eps>
         <color_r>4</color_r>
         <mono_eps>0.16</mono_eps>

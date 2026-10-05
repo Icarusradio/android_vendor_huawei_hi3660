@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <Config>
     <Global>
         <NoiseReductionFlag>1</NoiseReductionFlag>
@@ -290,7 +290,7 @@
     <!--params for different iso-->
     <!--mono_eps at [0.032, 0.16]-->
     <!--color_eps at [0.04, 0.16]-->
-    <camera_pos>3</camera_pos> <!-- MHA ???? 3, main camera right-->
+    <camera_pos>3</camera_pos> <!-- MHA ¶ÔÓ¦ 3, main camera right-->
     <isoCount>10</isoCount>
     <iso1>
         <iso>2048</iso>

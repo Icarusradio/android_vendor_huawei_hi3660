@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <OfflineAlgo>
 	<PPAlgo name="BigApertureAlgo"  multi_instance="1" instance_max="10" switcher="1" />
 	<PPAlgo name="fairlight" multi_instance="1" instance_max="10" switcher="0" />

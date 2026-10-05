@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <HwBeautyParams>
 	<Mode name="Preview">
 	<Level1 SkinSoften="30" SkinSoftenMode="0" SkinWhiten="2" FaceSlender="0" />

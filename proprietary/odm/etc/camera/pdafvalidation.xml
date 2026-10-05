@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!--2x2 PDAF block with no shift-->
 <HWA_PDAF_VALIDATION previewWidth="1440" previewHeight="1080" totalCount="1" distance="300" expo="20000" iso="100">
 	<VCM_INFO total="3">

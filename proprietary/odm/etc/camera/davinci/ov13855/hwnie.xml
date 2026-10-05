@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <Config>
     <ISPControl>
         <ISO1>
@@ -58,7 +58,7 @@
         <ISO1>
             <isovalue>258</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -72,7 +72,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -83,7 +83,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -96,9 +96,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>10</Q1>
                 <Q2>15</Q2>
                 <Q3>20</Q3>
@@ -107,7 +107,7 @@
         <ISO2>
             <isovalue>516</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -121,7 +121,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -132,7 +132,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -145,9 +145,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>2</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>10</Q1>
                 <Q2>15</Q2>
                 <Q3>20</Q3>
@@ -156,7 +156,7 @@
         <ISO3>
             <isovalue>1200</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -170,7 +170,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -181,7 +181,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -194,9 +194,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>
@@ -205,7 +205,7 @@
         <ISO4>
             <isovalue>1500</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -219,7 +219,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -230,7 +230,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -243,9 +243,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>
@@ -254,7 +254,7 @@
         <ISO5>
             <isovalue>2500</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -268,7 +268,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -279,7 +279,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -292,9 +292,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>
@@ -303,7 +303,7 @@
         <ISO6>
             <isovalue>3200</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -317,7 +317,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -328,7 +328,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -341,9 +341,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>
@@ -352,7 +352,7 @@
         <ISO7>
             <isovalue>4800</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -366,7 +366,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -377,7 +377,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -390,9 +390,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>
@@ -401,7 +401,7 @@
         <ISO8>
             <isovalue>20000</isovalue>
             <MSKR>
-            <!-- MultiscaleLevel??????????,????????????????MultiscaleLevel????????,???????????????????? -->
+            <!-- MultiscaleLevel后面的参数,每种参数的个数与MultiscaleLevel的值相同,分别表示相应层的参数 -->
                 <MultiscaleLevel>1</MultiscaleLevel>
                 <CkrWs>3</CkrWs>
                 <GradientWs>5</GradientWs>
@@ -415,7 +415,7 @@
                 <Q1>8</Q1>
                 <Q2>250</Q2>
                 <Q3>300</Q3>
-                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>0.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -426,7 +426,7 @@
                 <Q1>20</Q1>
                 <Q2>90</Q2>
                 <Q3>150</Q3>
-                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0??????????-->
+                <SharpLevelMax>1.5</SharpLevelMax>             <!-- 0表示不增强-->
                 <SharpLevelMin>0.3</SharpLevelMin>
                 <LPFParams1>26</LPFParams1>
                 <LPFParams2>53</LPFParams2>
@@ -439,9 +439,9 @@
                 <UndershootRatioMax>0.0</UndershootRatioMax>
             </EdgeEnhancement>
             <TextureRecovery>
-                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable??1??enable with input image, 2:enable with naive sharpness enhancement image,??????????????EdgeEnhancement????????-->
+                <EnableTextureRecovery>0</EnableTextureRecovery> <!-- 0:disable，1：enable with input image, 2:enable with naive sharpness enhancement image,滤波器参数使用EdgeEnhancement标签下的-->
                 <NaivaSharpenLevel>1.0</NaivaSharpenLevel>
-                <Q0>1</Q0>  <!-- ?????? -->
+                <Q0>1</Q0>  <!-- 倒几形 -->
                 <Q1>4</Q1>
                 <Q2>10</Q2>
                 <Q3>30</Q3>

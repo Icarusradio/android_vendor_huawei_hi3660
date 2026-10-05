@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<low2high_thresh value ="10"/>
+	<high2low_thresh value ="20"/>
+	<frameNumTotal value ="10"/>
+	<frameNumPart value ="8"/>
+</Config>
+
+

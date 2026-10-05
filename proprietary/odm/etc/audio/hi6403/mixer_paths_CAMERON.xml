@@ -290,6 +290,8 @@
 		<ctl name="S2 IF FUNC MODE CFG" value="0" />
 		<ctl name="S2 IF FS CFG" value="4" />
 		<ctl name="S2 DSP IF IN FS" value="4" />
+		<ctl name="S2 IL SRC MODE" value="0" />
+		<ctl name="S2 IR SRC MODE" value="0" />
 	</path>
 
 	<path name="bt_pb" >
@@ -995,6 +997,7 @@
 		<ctl name="S2 TX CLK SEL" value="0" />
 		<ctl name="S2 IF FUNC MODE CFG" value="2" />
 		<ctl name="S2 IF FS CFG" value="0" />
+		<ctl name="S2 DSP IF IN FS" value="0"/>
 		<ctl name="S2 IL SRC MODE" value="5" />
 		<ctl name="S2 IR SRC MODE" value="5" />
 		<ctl name="MIC1 MUX" value="S2L" />
