@@ -32,3 +32,23 @@ android_app_import {
 		"Camera2"
 	],
 }
+
+// The stock HWC requires VNDK 28 libui, no longer shipped in Android 15.
+cc_prebuilt_library_shared {
+    name: "libui-v28",
+    owner: "huawei",
+    soc_specific: true,
+    compile_multilib: "both",
+    target: {
+        android_arm: {
+            srcs: ["vndk/v28/arm/libui-v28.so"],
+        },
+        android_arm64: {
+            srcs: ["vndk/v28/arm64/libui-v28.so"],
+        },
+    },
+    strip: { none: true },
+    check_elf_files: false,
+    stl: "none",
+    system_shared_libs: [],
+}
