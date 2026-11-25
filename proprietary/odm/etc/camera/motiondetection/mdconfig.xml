@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <MDAlgoConfig>
     <!--HighSpeed2MidSpeed2LowSpeed Threshold in Raw Domain-->
     <h2mRawThrd>1500</h2mRawThrd>

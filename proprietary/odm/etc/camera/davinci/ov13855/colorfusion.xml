@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <Config>
-    <camera_pos>3</camera_pos> <!-- MHA ???? 3, main camera right-->
-    <fov_scale>1.03</fov_scale><!-- ??camera fov / ??camera fov--><!-- MHA/DUKE/VV ???? 1.03/1/1.03-->
+    <camera_pos>3</camera_pos> <!-- MHA 对应 3, main camera right-->
+    <fov_scale>1.03</fov_scale><!-- 副camera fov / 主camera fov--><!-- MHA/DUKE/VV 对应 1.03/1/1.03-->
 	<contrast_per>15</contrast_per>
     <PreProcess>
     </PreProcess>
@@ -32,7 +32,7 @@
     <isoCount>10</isoCount>
     <iso1>
         <iso>512</iso>
-        <appointed_router>1</appointed_router> <!--0/1/2/3????monobase/colorbase/coloronly/hybrid, -1????????????????-->
+        <appointed_router>1</appointed_router> <!--0/1/2/3表示monobase/colorbase/coloronly/hybrid, -1表示算法自己判断-->
         
         <color_eps>0.04</color_eps>
         <color_r>4</color_r>

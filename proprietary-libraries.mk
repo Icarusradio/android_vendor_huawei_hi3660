@@ -8,16 +8,7 @@ PRODUCT_PACKAGES += \
     hi3660_odm_hwcam_hwcam.hi3660.CMR.s.IMX258 \
     hi3660_odm_hwcam_hwcam.hi3660.CMR.s.OV13855 \
     hi3660_odm_hwcam_hwcam.hi3660.CMR.s.OV8856SHT_OFILM \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.p.HI846 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.p.IMX258 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.p.OV13855 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.p.OV8856SHT_OFILM \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.s.HI846 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.s.IMX258 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.s.OV13855 \
-    hi3660_odm_hwcam_hwcam.hi3660.SHT.s.OV8856SHT_OFILM \
     hi3660_odm_hwcam_hwcam.hi3660.m.CMR \
-    hi3660_odm_hwcam_hwcam.hi3660.m.SHT \
     hi3660_vendor_displayeffect.hi3660 \
     hi3660_vendor_egl_libGLES_mali \
     hi3660_vendor_hw_CameraFactoryService \
@@ -38,9 +29,9 @@ PRODUCT_PACKAGES += \
     hi3660_vendor_hw_sensors.hi3660 \
     hi3660_vendor_hw_thermal.hi3660 \
     hi3660_vendor_hw_vendor.huawei.hardware.camera.factory_1.0-impl \
-    hi3660_vendor_hw_vendor.huawei.hardware.gnss_1.0-impl \
-    hi3660_vendor_hw_vendor.huawei.hardware.graphics.displayeffect_1.2-impl \
-    hi3660_vendor_hw_vendor.huawei.hardware.graphics.mediacomm_2.1-impl \
+    hi3660_vendor_hw_vendor.huawei.hardware.gnss_1.2-impl \
+    hi3660_vendor_hw_vendor.huawei.hardware.graphics.displayeffect_1.0-impl \
+    hi3660_vendor_hw_vendor.huawei.hardware.graphics.mediacomm_2.0-impl \
     hi3660_vendor_hw_vendor.huawei.hardware.hisupl_1.0-impl \
     hi3660_vendor_hw_vendor.huawei.hardware.hwdisplay.displayengine_1.2-impl \
     hi3660_vendor_hw_vendor.huawei.hardware.hwdisplay_1.0-impl \
@@ -58,7 +49,6 @@ PRODUCT_PACKAGES += \
     hi3660_vendor_libOMX_Core \
     hi3660_vendor_libOpenCL \
     hi3660_vendor_libOpenCLFoundation \
-    hi3660_vendor_libRGBW \
     hi3660_vendor_libRefocusContrastPosition \
     hi3660_vendor_libSR_opencl \
     hi3660_vendor_libSmartAE \
@@ -164,16 +154,15 @@ PRODUCT_PACKAGES += \
     hi3660_vendor_libwvhidl \
     hi3660_vendor_soundfx_libhuaweiprocessing \
     hi3660_vendor_soundfx_liboffloadvisualizer \
-    hi3660_vendor_vendor.huawei.hardware.camera.camResource.matcherService_1.0 \
     hi3660_vendor_vendor.huawei.hardware.camera.camResource.orbService_1.0 \
     hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.0 \
     hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.1 \
     hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.2 \
     hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.3 \
-    hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.4 \
     hi3660_vendor_vendor.huawei.hardware.camera.factory_1.0 \
     hi3660_vendor_vendor.huawei.hardware.gnss_1.0 \
-    hi3660_vendor_vendor.huawei.hardware.gnss_2.0 \
+    hi3660_vendor_vendor.huawei.hardware.gnss_1.1 \
+    hi3660_vendor_vendor.huawei.hardware.gnss_1.2 \
     hi3660_vendor_vendor.huawei.hardware.graphics.displayeffect_1.0 \
     hi3660_vendor_vendor.huawei.hardware.graphics.displayeffect_1.1 \
     hi3660_vendor_vendor.huawei.hardware.graphics.displayeffect_1.2 \
@@ -185,7 +174,7 @@ PRODUCT_PACKAGES += \
     hi3660_vendor_vendor.huawei.hardware.hwdisplay.displayengine_1.1 \
     hi3660_vendor_vendor.huawei.hardware.hwdisplay.displayengine_1.2 \
     hi3660_vendor_vendor.huawei.hardware.hwdisplay_1.0 \
-    hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_3.0 \
+    hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_2.0 \
+    hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_2.1 \
     hi3660_vendor_vendor.huawei.hardware.wifi_1.0 \
-    hi3660_vendor_vendor.huawei.hardware.wifi_1.1 \
-    hi3660_vendor_vendor.huawei.hardware.wifi_1.2
+    hi3660_vendor_vendor.huawei.hardware.wifi_1.1

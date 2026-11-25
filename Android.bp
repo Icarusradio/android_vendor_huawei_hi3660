@@ -53,7 +53,7 @@ cc_prebuilt_library_shared {
     system_shared_libs: [],
 }
 
-// Architecture-specific declarations for the unchanged EMUI shared libraries.
+// Architecture-specific declarations for the CMR-LGRP1-CHN shared libraries.
 // See proprietary-libraries.mk for product installation.
 
 cc_prebuilt_library_shared {
@@ -201,150 +201,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.p.HI846",
-    stem: "hwcam.hi3660.SHT.p.HI846",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.p.HI846.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.p.IMX258",
-    stem: "hwcam.hi3660.SHT.p.IMX258",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.p.IMX258.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.p.OV13855",
-    stem: "hwcam.hi3660.SHT.p.OV13855",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.p.OV13855.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.p.OV8856SHT_OFILM",
-    stem: "hwcam.hi3660.SHT.p.OV8856SHT_OFILM",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.p.OV8856SHT_OFILM.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.s.HI846",
-    stem: "hwcam.hi3660.SHT.s.HI846",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.s.HI846.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.s.IMX258",
-    stem: "hwcam.hi3660.SHT.s.IMX258",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.s.IMX258.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.s.OV13855",
-    stem: "hwcam.hi3660.SHT.s.OV13855",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.s.OV13855.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.SHT.s.OV8856SHT_OFILM",
-    stem: "hwcam.hi3660.SHT.s.OV8856SHT_OFILM",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.SHT.s.OV8856SHT_OFILM.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
     name: "hi3660_odm_hwcam_hwcam.hi3660.m.CMR",
     stem: "hwcam.hi3660.m.CMR",
     owner: "huawei",
@@ -354,24 +210,6 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.m.CMR.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_odm_hwcam_hwcam.hi3660.m.SHT",
-    stem: "hwcam.hi3660.m.SHT",
-    owner: "huawei",
-    device_specific: true,
-    compile_multilib: "64",
-    relative_install_path: "hwcam",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/hwcam/hwcam.hi3660.m.SHT.so"],
         },
     },
     strip: { none: true },
@@ -773,15 +611,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_hw_vendor.huawei.hardware.gnss_1.0-impl",
-    stem: "vendor.huawei.hardware.gnss@1.0-impl",
+    name: "hi3660_vendor_hw_vendor.huawei.hardware.gnss_1.2-impl",
+    stem: "vendor.huawei.hardware.gnss@1.2-impl",
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "64",
     relative_install_path: "hw",
     target: {
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.gnss@1.0-impl.so"],
+            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.gnss@1.2-impl.so"],
         },
     },
     strip: { none: true },
@@ -791,18 +629,18 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_hw_vendor.huawei.hardware.graphics.displayeffect_1.2-impl",
-    stem: "vendor.huawei.hardware.graphics.displayeffect@1.2-impl",
+    name: "hi3660_vendor_hw_vendor.huawei.hardware.graphics.displayeffect_1.0-impl",
+    stem: "vendor.huawei.hardware.graphics.displayeffect@1.0-impl",
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "both",
     relative_install_path: "hw",
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.2-impl.so"],
+            srcs: ["proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.2-impl.so"],
+            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so"],
         },
     },
     strip: { none: true },
@@ -812,18 +650,18 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_hw_vendor.huawei.hardware.graphics.mediacomm_2.1-impl",
-    stem: "vendor.huawei.hardware.graphics.mediacomm@2.1-impl",
+    name: "hi3660_vendor_hw_vendor.huawei.hardware.graphics.mediacomm_2.0-impl",
+    stem: "vendor.huawei.hardware.graphics.mediacomm@2.0-impl",
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "both",
     relative_install_path: "hw",
     target: {
         android_arm: {
-            srcs: ["proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.1-impl.so"],
+            srcs: ["proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so"],
         },
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.1-impl.so"],
+            srcs: ["proprietary/vendor/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so"],
         },
     },
     strip: { none: true },
@@ -1122,23 +960,6 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOpenCLFoundation.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_vendor_libRGBW",
-    stem: "libRGBW",
-    owner: "huawei",
-    soc_specific: true,
-    compile_multilib: "64",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/libRGBW.so"],
         },
     },
     strip: { none: true },
@@ -2053,6 +1874,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "hi3660_vendor_libhivwservice",
     stem: "libhivwservice",
+    shared_libs: ["libprocessgroup"],
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "both",
@@ -3016,23 +2838,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_vendor.huawei.hardware.camera.camResource.matcherService_1.0",
-    stem: "vendor.huawei.hardware.camera.camResource.matcherService@1.0",
-    owner: "huawei",
-    soc_specific: true,
-    compile_multilib: "64",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.camera.camResource.matcherService@1.0.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
     name: "hi3660_vendor_vendor.huawei.hardware.camera.camResource.orbService_1.0",
     stem: "vendor.huawei.hardware.camera.camResource.orbService@1.0",
     owner: "huawei",
@@ -3118,23 +2923,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_vendor.huawei.hardware.camera.camResource_1.4",
-    stem: "vendor.huawei.hardware.camera.camResource@1.4",
-    owner: "huawei",
-    soc_specific: true,
-    compile_multilib: "64",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.camera.camResource@1.4.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
     name: "hi3660_vendor_vendor.huawei.hardware.camera.factory_1.0",
     stem: "vendor.huawei.hardware.camera.factory@1.0",
     owner: "huawei",
@@ -3169,14 +2957,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_vendor.huawei.hardware.gnss_2.0",
-    stem: "vendor.huawei.hardware.gnss@2.0",
+    name: "hi3660_vendor_vendor.huawei.hardware.gnss_1.1",
+    stem: "vendor.huawei.hardware.gnss@1.1",
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "64",
     target: {
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.gnss@2.0.so"],
+            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.gnss@1.1.so"],
+        },
+    },
+    strip: { none: true },
+    check_elf_files: false,
+    stl: "none",
+    system_shared_libs: [],
+}
+
+cc_prebuilt_library_shared {
+    name: "hi3660_vendor_vendor.huawei.hardware.gnss_1.2",
+    stem: "vendor.huawei.hardware.gnss@1.2",
+    owner: "huawei",
+    soc_specific: true,
+    compile_multilib: "64",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.gnss@1.2.so"],
         },
     },
     strip: { none: true },
@@ -3403,14 +3208,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_3.0",
-    stem: "vendor.huawei.hardware.wifi.supplicant@3.0",
+    name: "hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_2.0",
+    stem: "vendor.huawei.hardware.wifi.supplicant@2.0",
     owner: "huawei",
     soc_specific: true,
     compile_multilib: "64",
     target: {
         android_arm64: {
-            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@3.0.so"],
+            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.0.so"],
+        },
+    },
+    strip: { none: true },
+    check_elf_files: false,
+    stl: "none",
+    system_shared_libs: [],
+}
+
+cc_prebuilt_library_shared {
+    name: "hi3660_vendor_vendor.huawei.hardware.wifi.supplicant_2.1",
+    stem: "vendor.huawei.hardware.wifi.supplicant@2.1",
+    owner: "huawei",
+    soc_specific: true,
+    compile_multilib: "64",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so"],
         },
     },
     strip: { none: true },
@@ -3445,23 +3267,6 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.1.so"],
-        },
-    },
-    strip: { none: true },
-    check_elf_files: false,
-    stl: "none",
-    system_shared_libs: [],
-}
-
-cc_prebuilt_library_shared {
-    name: "hi3660_vendor_vendor.huawei.hardware.wifi_1.2",
-    stem: "vendor.huawei.hardware.wifi@1.2",
-    owner: "huawei",
-    soc_specific: true,
-    compile_multilib: "64",
-    target: {
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.2.so"],
         },
     },
     strip: { none: true },
